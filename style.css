@@ -1,11 +1,16 @@
 * { margin: 0; padding: 0; }
+html{
+	height: 100%;
+}
 body {
 	background-color: #f9f9f9;
 	font: 10pt/16pt Arial, sans-serif;
 	color: #2c2c2c;
+	height: 100%;
 }
 .page {
 	width: 1060px;
+	min-height: 100%;
 	box-sizing: border-box;
 	background-color: #fff;
 	margin: 0 auto;
@@ -71,6 +76,9 @@ aside{
 .menu-left li a:hover{
 	text-decoration: none;
 	color: #2c2c2c;
+	padding-left: 35px;
+	background-color: #f9f9f9;
+
 }
 .menu-left li a.active{
 	padding-left: 35px;
